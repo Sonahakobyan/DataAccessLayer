@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataAccessLayer>
+  <query name="GetCategories" command="select * from Categories" issp="false">
+    <parameters>
+      <parameter csname="aaa" sqlname="bbb" />
+      <parameter csname="ccc" sqlname="ddd" />
+    </parameters>
+  </query>
+
+  <query name="GetCategory" command="GetCategoryByID" issp="true">
+    <parameters>
+      <parameter csname="csID" sqlname="ID" />
+    </parameters>
+  </query>
+</dataAccessLayer>
